@@ -8,7 +8,7 @@ print(tello.get_battery())
 
 tello.takeoff()
 tello.move_up(91)
-
+sleep(2)
 tello.move_forward(152)
 sleep(2)
 tello.rotate_counter_clockwise(90)
